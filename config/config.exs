@@ -10,7 +10,7 @@ import Config
 # Configures the endpoint
 config :phoenix_hello, PhoenixHelloWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "SECRET_KEY_BASE",
+  #secret_key_base: "SECRET_KEY_BASE",
   render_errors: [view: PhoenixHelloWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: PhoenixHello.PubSub,
   live_view: [signing_salt: "stuT4y46"]
